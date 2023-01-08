@@ -1,0 +1,14 @@
+{
+	"name": "docker-powershell",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/ranokuhl/docker-powershell.git",
+	"author": "Rano <ranokuhl@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.18.2"
+	}
+}
