@@ -1,4 +1,5 @@
 *.deb*
+yarn.lock
 # Logs
 logs
 *.log
