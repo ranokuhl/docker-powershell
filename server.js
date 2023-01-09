@@ -20,8 +20,9 @@ app.get('/', async (req, res) => {
 		const scriptCommand = PowerShell.command`. ${scriptPath}`
 		const result = await ps.invoke(scriptCommand)
 		const data = result.raw
+		console.log('🚀 ~ file: server.js:23 ~ app.get ~ data', data)
 
-		res.status(200).json({'message:': data})
+		res.status(200).json({data: data})
 	} catch (error) {
 		console.log('🚀 ~ file: server.js:22 ~ app.get ~ error', error)
 	} finally {

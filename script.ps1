@@ -1,1 +1,4 @@
-echo "Hello World from script.ps1"
+$Message = "Hello World from script.ps1"
+
+Write-Host $Message
+
